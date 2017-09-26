@@ -1,0 +1,77 @@
+/* Footer styles - Textile Mall Project
+   author: Fernando Ted
+   02-20-17 */
+
+
+.footer-container {
+	width: 100%;
+	
+	.footer-contact-wrapper {
+		background: $magenta;
+		width: 100%;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-justify-content: center;
+		justify-content: center;
+		
+		.footer-text {
+			text-align: center;
+			width: 100%;
+			color: $white;
+			padding-top: 80px;
+			padding-bottom: 40px;
+		}
+		.contact-button-wrapper {
+			padding-bottom: 80px;
+			
+			.contact-button {
+				@extend .btn;
+				@extend .btn-outline-primary;
+				font-size: .8rem;
+				text-transform: uppercase;
+				padding: 10px 40px;
+				color: $white;
+				border-color: $white;
+				
+				&:hover {
+					color: $magenta;
+					border-color: $magenta;
+					background-color: $white;
+				}
+			}
+		}
+	}
+	.bottom-belt-wrapper {
+		text-align: center;
+		background-color: $purple;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-align-content: center;
+		align-content: center;
+		
+		.bottom-text {
+			color: $white;
+			font-size: .7rem;
+			padding: 10px 0;
+		}
+	}
+}
+
+/* mobile */
+@media screen and (max-width: 375px) {
+	.footer-container {
+		
+		.footer-contact-wrapper {
+			
+			.footer-text {
+				font-size: 1.4rem;
+				padding-left: 40px;
+				padding-right: 40px;
+			}
+		}
+	}
+}

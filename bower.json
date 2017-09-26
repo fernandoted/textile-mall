@@ -1,0 +1,22 @@
+{
+  "name": "textile-mall",
+  "description": "front-end layout study",
+  "main": "index.js",
+  "authors": [
+    "Fernando Ted <fernandoted@icloud.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "front-end",
+    "responsive",
+    "bootstrap"
+  ],
+  "homepage": "https://github.com/fernandoted/textile-mall",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,54 @@
+/* Stylesheet Textile-Mall
+   author: Fernando Ted
+   02-18-17 */
+
+
+
+@import "../components/bootstrap/scss/bootstrap";
+@import "variables";
+@import "topbar";
+@import "menu";
+@import "logo";
+@import "banner";
+@import "images";
+@import "texts";
+@import "footer";
+
+html, body {
+	min-height: 100%;
+}
+
+.bg-body {
+	background: $purple;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.container-full {
+	/*width: 100%;*/
+	max-width: 1350px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.linebreak-mobile {
+	display: none;
+}
+
+.linebreak-desktop {
+	display: block;
+}
+
+/* iPhone 6 */
+@media screen and (max-width: 375px) {
+	.linebreak-mobile {
+		display: block;
+	}
+	.linebreak-desktop {
+		display: none;
+	}
+}

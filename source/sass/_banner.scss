@@ -1,0 +1,54 @@
+/* Banner styles - Textile Mall Project
+   author: Fernando Ted
+   02-20-17 */
+
+.banner-title-container {
+	width: 100%;
+	background: url(../../dist/img/banner-header.jpg) center center no-repeat;
+	background-size: cover;
+	height: 640px;
+	padding-top: 250px;
+	/*text-align: center;*/
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	/*-webkit-align-items: center;
+	align-items: center;*/
+	/*-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;*/
+	
+	.banner-title-wrapper {
+		clear: both;
+	
+		.banner-title {
+			text-align: center;
+			padding: 14px 20px;
+			text-transform: uppercase;
+			line-height: 2.8rem;
+			color: $white;
+			background-color: $purple;
+		}
+	}
+}
+
+/* SMARTPHONE - iPhone 5 */
+@media screen and (max-width: 375px) {
+	.banner-title-container {
+		background: url(../../dist/img/banner-header-mobile-02.jpg) center center no-repeat;
+		background-size: cover;
+		height: 670px;
+		padding-top: 230px;
+		
+		.banner-title-wrapper {
+		
+			.banner-title {
+				padding: 10px;
+				font-size: 1.250rem;
+				line-height: 2.5rem;
+				color: $white;
+				background-color: $purple;
+			}
+		}
+	}
+}

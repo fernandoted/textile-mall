@@ -1,0 +1,32 @@
+/* Topbar styles - Textile Mall Project
+   author: Fernando Ted
+   02-20-17 */
+
+
+
+.topbar-wrapper {
+	width: 100%;
+	padding-top: 30px;
+	position: absolute; 
+	background-color: transparent;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	
+	.empty-container {
+		-webkit-flex: 1;
+		flex: 1;
+	}
+}
+
+/* SMARTPHONE - iPhone 5 */
+@media screen and (max-width: 375px) {
+	
+	.topbar-wrapper {
+		
+		/*.empty-container {
+			display: none;
+		}*/
+	}
+}

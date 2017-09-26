@@ -1,0 +1,69 @@
+/* Texts styles - Textile Mall Project
+   author: Fernando Ted
+   02-20-17 */
+
+
+.col-text-wrapper {
+	padding: 50px 200px 0 70px;
+}
+
+.col-text-wrapper-left {
+	padding: 50px 70px 0 200px;
+}
+
+.col-text-wrapper, .col-text-wrapper-left {
+	width: 50%;
+	/*height: 370px;*/
+	background: $light-purple;
+	color: $white;
+	
+	.title-section {
+		text-transform: uppercase;
+		font-size: 1.325rem;
+		margin-bottom: 20px;
+		line-height: 2rem;
+	}
+	
+	.text-section {
+		font-size: .8rem;
+		line-height: 1.325rem;
+	}
+}
+
+.text-wrapper {
+	text-align: center;
+	 
+	.text-label {
+		color: $white;
+		font-size: .7rem;
+		margin-bottom: 0;
+	}
+}
+
+/* SMARTPHONE - iPhone 5 */
+@media screen and (max-width: 375px) {
+	.col-text-wrapper {
+		padding: 30px 10px 0 10px;
+		-webkit-order: -1;
+		order: -1;
+	}
+	
+	.col-text-wrapper-left {
+		padding: 30px 10px 0 10px;
+	}
+	
+	.col-text-wrapper, .col-text-wrapper-left {
+		width: 100%;
+		
+		.title-section {
+			text-align: center;
+			font-size: 1.250rem;
+			margin-bottom: 20px;
+			line-height: 1.8rem;
+		}
+		
+		.text-section {
+			padding: 0 20px 20px 20px;
+		}
+	}
+}

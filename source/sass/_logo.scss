@@ -1,0 +1,78 @@
+/* Logo styles - Textile Mall Project
+   author: Fernando Ted
+   02-20-17 */
+
+
+.topbar-wrapper {
+	
+	.logo-wrapper {
+		-webkit-flex: 3;
+		flex: 3;
+		text-align: center;
+		
+		.logo {
+			width: 230px;
+		}
+	}
+}
+
+/* small logos */
+.small-logos-wrapper {
+	/*padding: 50px 30px 20px 30px;*/
+	margin-bottom: 20px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	
+	.small-logos {
+		
+	}
+}
+
+.texmas-logo-wrapper {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	
+	.logo-texmas {
+		width: 70%;
+		height: auto;
+	}
+}
+
+/* SMARTPHONE - iPhone 5 */
+@media screen and (max-width: 375px) {
+	.topbar-wrapper {
+	
+		.logo-wrapper {
+			
+			.logo {
+				width: 200px;
+				/*margin-right: 100px;*/
+			}
+		}
+	}
+	.small-logos-wrapper {
+		width: 100%;
+		/*padding: 40px 20px 20px 20px;*/
+		margin-bottom: 10px;
+		
+		.small-logos {
+		}
+	}
+	.texmas-logo-wrapper {
+		.logo-texmas {
+			/*padding-top: 40px;
+			padding-bottom: 40px;*/
+		}
+	}
+		
+}
